@@ -1,0 +1,96 @@
+$primary-text-color: #183b56;
+
+/* Each service is stored inside a container. There are 3 containers */
+.service-container {
+    display: flex;
+    /* Aligns both left and right vertically in the center*/
+    align-items: center;
+    /* Pushes left and right to the corners as there are only two elements*/
+    justify-content: space-between;
+    /* Adds some space from the previous container*/
+    margin-top: 3vh;
+}
+
+.service-image-container {
+    /* This container contains the image and it takes 55% of the service-container*/
+    width: 55%;
+}
+
+.service-image {
+    /* The image takes 100% of its container. Image width should be specified*/
+    width: 100%;
+}
+
+.service-content-container {
+    display: flex;
+    /* The content has multiple headings and paragraphs that are shown vertically using flex*/
+    flex-direction: column;
+    /* Adds space between the content elements*/
+    gap: 2vh;
+    /* This is important to specify*/
+    width: 40%;
+
+}
+
+.service-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    text-align: start;
+}
+
+.service-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    text-align: start;
+
+}
+
+.service-quote-company-logo {
+    width: 105px;
+    height: 30px;
+}
+
+#philips-logo {
+    width: 74px;
+}
+
+/* Background quotation symbol*/
+.quote-container {
+    background-image: url(../assets/logo/asset\ 35.svg);
+    /* Makes the quotation symbol small*/
+    background-size: 60px;
+    background-repeat: no-repeat;
+    /* Pushes the background quotation symbol down*/
+    background-position-y: -2px;
+}
+
+.quote {
+    margin-top: 2.5vh;
+    /* Limit the quote width so its a bit smaller than the content description above*/
+    width: 90%;
+    font-size: 1.1rem;
+    color: $primary-text-color;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+
+    .person {
+        width: 15%;
+    }
+
+    .person-info {
+        width: 70%;
+
+    }
+
+}
+
+.person-image {
+    width: 90%;
+}

@@ -1,0 +1,169 @@
+$primary-text-color: #183b56;
+
+.example-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2vw;
+    margin-top: 3vh;
+}
+
+.example-card {
+    color: white;
+    text-align: start;
+    padding-left: 15px;
+    min-height: 300px;
+    /* This makes the example-card relative so that we can add the text relative to it*/
+    position: relative;
+
+    h4 {
+        /* Position the text on top of the background image like this*/
+        position: absolute;
+        bottom: 10px;
+        left: 15px;
+        max-width: 80%;
+    }
+}
+
+/* Linear Gradient adds a slight back on top of the background image just like the design*/
+#example-card-1 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../assets/asset\ 36.jpeg);
+}
+
+/* Linear Gradient adds a slight back on top of the background image just like the design*/
+#example-card-2 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../assets/asset\ 37.jpeg);
+}
+
+/* Linear Gradient adds a slight back on top of the background image just like the design*/
+#example-card-3 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../assets/asset\ 38.jpeg);
+}
+
+/* Linear Gradient adds a slight back on top of the background image just like the design*/
+#example-card-4 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../assets/asset\ 39.jpeg);
+}
+
+.example-card:hover {
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 0 15px rgb(130, 126, 126);
+}
+
+/*************** Call-To-Action ******************/
+/* Background color of the section*/
+.cta {
+    background-color: #183b54;
+}
+
+/* Flex will align the two sections in a row and space them out*/
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* The left container contains the content and words for CTA*/
+.cta-content-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+    h2 {
+        margin-top: 5%;
+        color: white;
+    }
+
+    p {
+        margin-top: 4%;
+        color: #b9cde4;
+    }
+
+    h5 {
+        color: white;
+        margin-top: 5%;
+    }
+}
+
+/* This container contains the image*/
+.cta-image-container {
+    width: 50%;
+    /* It is made relative so the white layover circle can be placed over the cta-image*/
+    position: relative;
+
+    /* Notice this has static position by default so the absolute position will come over it*/
+    .cta-image {
+        width: 90%;
+    }
+    /* This is the white circle layover*/
+    .cta-image-layover {
+        /* Position it in the center of cta-image*/
+        width: 40%;
+        position: absolute;
+        left: 32%;
+        bottom: 30%;
+    }
+
+}
+
+/* This is the text written on top of white layover*/
+.cta-image-layover-content {
+    width: 40%;
+    position: absolute;
+    left: 32%;
+    bottom: 42%;
+    z-index: 10;
+
+    h5 {
+        color: $primary-text-color;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    p {
+        color: #b9cde4;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    /* This is the special number, in our deisgn its 1*/
+    #special-price-number {
+        color: #2294ed;
+        font-size: 3rem;
+        font-weight: 500;
+        margin-left: 2px;
+        /* We use position absolute to position it.*/
+        position: absolute;
+        left: 62%;
+        bottom: 35%;
+
+    }
+
+}
+
+/* The content consists of some headings and paragraphs*/
+.cta-panel-feature-list {
+    display: flex;
+    width: 95%;
+    margin-top: 2%;
+
+    ul {
+        list-style: disc;
+        color: #b9cde4;
+
+        li {
+            margin-top: 3%;
+        }
+    }
+
+    .left-panel-list {
+        margin-left: 3%;
+    }
+
+    .right-panel-list {
+        margin-left: 8%;
+    }
+}
+
+.cta-btn {
+    margin-top: 5%;
+}

@@ -1,0 +1,150 @@
+/*Define some variables to be used later */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Some basic settings for fonts, colors and default decorations */
+  font-family: "Poppins", sans-serif;
+  color: #183b56;
+}
+
+h1 {
+  /* Some basic settings for fonts, colors and default decorations */
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h2 {
+  /* Some basic settings for fonts, colors and default decorations */
+  font-size: 2rem;
+}
+
+h3 {
+  /* Some basic settings for fonts, colors and default decorations */
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+h4 {
+  /* Some basic settings for fonts, colors and default decorations */
+  font-size: 1.2rem;
+}
+
+h5 {
+  /* Some basic settings for fonts, colors and default decorations */
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+p {
+  /* Some basic settings for fonts, colors and default decorations */
+  font-family: Roboto, sans-serif;
+  font-size: 1.25rem;
+  color: #577592;
+  line-height: 1.8rem;
+}
+
+a {
+  /* Some basic settings for fonts, colors and default decorations */
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Create a utility class for page container */
+.page-container {
+  max-width: 1180px;
+  /* Inline means the text-orientation direction which is horizontal here. 
+  margin-inline = auto will center the page-container as it sets the margin-inline-start and margin-inline-end values*/
+  margin-inline: auto;
+  /* Aligns the banner text in the middle of the banner */
+  text-align: center;
+  padding: 15px;
+}
+
+/*********** Top Banner **********/
+/* Create a utility class to use in html whenever you need to write small bold font like in banner */
+.banner-text {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.top-banner {
+  color: white;
+  background-color: #e74694;
+  background-image: url(../assets/asset\ 32.png);
+  background-size: 300px;
+  background-repeat: repeat;
+}
+
+/*********** Navbar **********/
+/*Nav bar is using flexbox */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.brand-logo img {
+  width: 160px;
+}
+
+.nav-list-container {
+  flex-basis: 730px;
+}
+.nav-list-container ul {
+  gap: 30px;
+  align-items: center;
+}
+
+/*nav-list is using flexbox as well */
+.nav-list {
+  display: flex;
+  justify-content: end;
+}
+
+.hover-link {
+  color: #183b56;
+  transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+  color: #2294ed;
+}
+
+.secondary-btn {
+  font-weight: 500;
+  padding: 12px 24px;
+  border: 1px solid #b9cde4;
+  border-radius: 6px;
+  box-shadow: 0 0 2x #183b56;
+  transition: 0.2s ease-out;
+}
+
+.secondary-btn:hover {
+  border-color: #2294ed;
+}
+
+.primary-btn {
+  font-weight: 500;
+  background-color: #2294ed;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  box-shadow: 0 0 2x #183b56;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.primary-btn:hover {
+  color: white;
+  background-color: #1d69a3;
+}/*# sourceMappingURL=banner-navbar-style.css.map */

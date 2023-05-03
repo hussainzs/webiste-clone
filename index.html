@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Banner-Navbar-section/banner-navbar-style.css">
+    <link rel="stylesheet" href="Header-Section/header-style.css">
+    <link rel="stylesheet" href="Features-Section/features-style.css">
+    <link rel="stylesheet" href="Service-Section/service-style.css">
+    <link rel="stylesheet" href="example-cta-section/example-cta-style.css">
+    <link rel="stylesheet" href="footer-section/footer-style.css">
+    <title>Website Clone</title>
+</head>
+
+<body>
+
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <!--this class is used to store all elements of the page and center them on the page-->
+        <div class="page-container">
+            <!--use the utility class for small bold font-->
+            <div class="banner-text">
+                📣 Figma prototype testing just got a whole lot better! Read more →
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar-->
+    <nav>
+        <div class="page-container nav-container">
+            <!--This contains the company logo on the left side of the nav bar-->
+            <a href="#" class="brand-logo">
+                <img src="assets/asset 1.png" alt="Logo Name">
+            </a>
+
+            <!--This contains the right side of the navbar, also what hides behind hamburger menu on small screens-->
+            <div class="nav-list-container">
+                <ul class="nav-list">
+                    <li><a href="#" class="hover-link">Products</a>
+                    </li>
+                    <li><a href="#" class="hover-link">Customers</a>
+                    </li>
+                    <li><a href="#" class="hover-link">Pricing</a>
+                    </li>
+                    <li><a href="#" class="hover-link">Resources</a>
+                    </li>
+                    <li><a href="#" class="hover-link secondary-btn">Sign in</a>
+                    </li>
+                    <li><a href="#" class="hover-link primary-btn">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header>
+        <div class="page-container header-section">
+            <div class="header-left">
+                <h1>Design Confidently.</h1>
+                <p>UsabilityHub is a remote user research platform that takes the guesswork out of design
+                    decisions by
+                    validating them with real users.</p>
+                <!--css class primary-btn is styled in banner-navbar-style.css-->
+                <a href="#" class="primary-btn header-btn">Get Started</a>
+            </div>
+
+            <div class="header-right">
+                <img src="assets/asset 2.png"
+                    alt="3 cartoon characters with colorful shirts working together on a computer">
+            </div>
+        </div>
+    </header>
+
+    <!--Partner Companies Section-->
+    <section class="partner-companies page-container">
+        <!--Contains the heading above the companies pictures-->
+        <div id="companies-heading" class="banner-text">
+            The world’s best companies rely on UsabilityHub to make better design decisions.
+        </div>
+
+        <!--Contains the logos of companies-->
+        <div class="partners-logo-container">
+            <img src="assets/asset 3.png" alt="partner logos" class="partners-logo">
+            <img src="assets/asset 4.png" alt="partner logos" class="partners-logo">
+            <img src="assets/asset 5.png" alt="partner logos" class="partners-logo">
+            <img src="assets/asset 6.png" alt="partner logos" class="partners-logo">
+            <img src="assets/asset 7.png" alt="partner logos" class="partners-logo">
+            <img src="assets/asset 9.png" alt="partner logos" class="partners-logo">
+            <img src="assets/asset 22.png" alt="partner logo" class="partners-logo">
+        </div>
+    </section>
+
+    <!--Features Section-->
+    <section class="features page-container">
+        <h3>Your user research Swiss Army Knife</h3>
+        <a href="#" class="secondary-btn hover-link features-btn">See all features <img id="features-btn-arrow"
+                src="./assets/logo/asset 10.svg" alt="arrow logo"></a>
+
+        <div class="all-features-container">
+            <div class="feature-container">
+                <img class="feature-icon" src="./assets/logo/asset 11.svg" alt="feature logo">
+                <h4>Card Sorting</h4>
+                <p>Discover people group and label information</p>
+                <a href="#" class="secondary-btn hover-link features-btn">Learn more <img id="features-btn-arrow"
+                        src="./assets/logo/asset 10.svg" alt="arrow logo"></a>
+            </div>
+            <div class="feature-container">
+                <img class="feature-icon" src="./assets/logo/asset 13.svg" alt="feature logo">
+                <h4>Prototype Tests</h4>
+                <p>Discover how people navigate your figma prototypes</p>
+                <a href="#" class="secondary-btn hover-link features-btn">Learn more <img id="features-btn-arrow"
+                        src="./assets/logo/asset 10.svg" alt="arrow logo"></a>
+            </div>
+            <div class="feature-container">
+                <img class="feature-icon" src="./assets/logo/asset 14.svg" alt="feature logo">
+                <h4>First Click Tests</h4>
+                <p>Test interaction with first click and navigation tests</p>
+                <a href="#" class="secondary-btn hover-link features-btn">Learn more <img id="features-btn-arrow"
+                        src="./assets/logo/asset 10.svg" alt="arrow logo"></a>
+            </div>
+
+            <div class="feature-container">
+                <img class="feature-icon" src="./assets/logo/asset 15.svg" alt="feature logo">
+                <h4>Design Surveys</h4>
+                <p>Get feedback on images, videos or audio files</p>
+                <a href="#" class="secondary-btn hover-link features-btn">Learn more <img id="features-btn-arrow"
+                        src="./assets/logo/asset 10.svg" alt="arrow logo"></a>
+            </div>
+            <div class="feature-container">
+                <img class="feature-icon" src="./assets/logo/asset 16.svg" alt="feature logo">
+                <h4>Preference tests</h4>
+                <p>Find out which designs users prefer and why</p>
+                <a href="#" class="secondary-btn hover-link features-btn">Learn more <img id="features-btn-arrow"
+                        src="./assets/logo/asset 10.svg" alt="arrow logo"></a>
+            </div>
+            <div class="feature-container">
+                <img class="feature-icon" src="./assets/logo/asset 17.svg" alt="feature logo">
+                <h4>Five second tests</h4>
+                <p>Test comprehensibility by measuring first impressions</p>
+                <a href="#" class="secondary-btn hover-link features-btn">Learn more <img id="features-btn-arrow"
+                        src="./assets/logo/asset 10.svg" alt="arrow logo"></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Services Section-->
+    <section class="services page-container">
+        <!-- Service 1 -->
+        <div class="service-container">
+            <!-- image -->
+            <div class="service-image-container">
+                <img src="./assets/asset 18.png" alt="carton writing" class="service-image">
+            </div>
+
+            <!-- content -->
+            <div class="service-content-container">
+                <div class="service-description">
+                    <h5>Effortless validation for</h5>
+                    <h3>Design Professionals</h3>
+                    <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and
+                        delightful experiences for your users.</p>
+                </div>
+                <div class="service-quote">
+                    <img class="service-quote-company-logo" src="./assets/asset 19.png" alt="chatmogul logo">
+
+                    <div class="quote-container">
+                        <p class="quote"> navigation test is god's gift to UI designers, it probably has the best
+                            power-to-simplicity
+                            ratio of any software, ever.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="person">
+                            <img class="person-image" src="./assets/asset 20.png" alt="ChatMogul CEO Picture">
+                        </div>
+                        <div class="person-info">
+                            <h4>Nick Franklin</h4>
+                            <p>Chief Executive Officer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-container">
+            <!-- content -->
+            <div class="service-content-container">
+                <div class="service-description">
+                    <h5>Optimisation for</h5>
+                    <h3>Marketers</h3>
+                    <p>Fine-tune landing pages, messaging, and creative, helping you optimise conversion rates on
+                        marketing campaigns and product launches.
+                    </p>
+                </div>
+                <div class="service-quote">
+                    <img class="service-quote-company-logo" id="philips-logo" src="./assets/asset 22.png"
+                        alt="chatmogul logo">
+
+                    <div class="quote-container">
+                        <p class="quote"> We use UsabilityHub tests to help us make decisions for various projects. From
+                            web and mobile design to marketing activities.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="person">
+                            <img class="person-image" src="./assets/asset 23.png" alt="ChatMogul CEO Picture">
+                        </div>
+                        <div class="person-info">
+                            <h4>Rick van de Ven</h4>
+                            <p>Digital Marketing Analyst</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- image -->
+            <div class="service-image-container">
+                <img src="./assets/asset 21.png" alt="carton writing" class="service-image">
+            </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-container">
+            <!-- image -->
+            <div class="service-image-container">
+                <img src="./assets/asset 24.png" alt="carton writing" class="service-image">
+            </div>
+
+            <!-- content -->
+            <div class="service-content-container">
+                <div class="service-description">
+                    <h5>Easier decision making for</h5>
+                    <h3>Product managers</h3>
+                    <p>Ensure you’re delivering the right features to the right customers by validating product concepts
+                        with your target audience.</p>
+                </div>
+                <div class="service-quote">
+                    <img class="service-quote-company-logo" src="./assets/asset 25.png" alt="chatmogul logo">
+
+                    <div class="quote-container">
+                        <p class="quote">Adopting UsabilityHub got us into the habit of asking our users questions
+                            before locking in decisions.</p>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="person">
+                            <img class="person-image" src="./assets/asset 26.png" alt="ChatMogul CEO Picture">
+                        </div>
+                        <div class="person-info">
+                            <h4>Ron Diorio</h4>
+                            <p>VP Innovation & New Products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--Example Section-->
+    <section class="examples page-container">
+        <h1>One platform, endless possibilities</h1>
+        <a href="#" class="secondary-btn hover-link features-btn">See all examples <img id="features-btn-arrow"
+                src="./assets/logo/asset 10.svg" alt="arrow logo">
+        </a>
+
+        <div class="example-card-container">
+            <a href="#" class="example-card" id="example-card-1">
+                <h4>Can users complete a task in my Software Interface?</h4>
+            </a>
+            <a href="#" class="example-card" id="example-card-2">
+                <h4>Can users find important pages on my website?</h4>
+            </a>
+            <a href="#" class="example-card" id="example-card-3">
+                <h4>Is my website’s intended audience clear?</h4>
+            </a>
+            <a href="#" class="example-card" id="example-card-4">
+                <h4>Do visitors understand what a page is about?</h4>
+            </a>
+        </div>
+
+    </section>
+
+    <!--Call To Action Section-->
+    <section class="cta">
+        <div class="cta-container page-container">
+            <div class="cta-content-container">
+                <h2>No Participants? <br>No problem.</h2>
+                <p>Our integrated panel allows you to quickly and affordably recruit research participants that
+                    precisely match your target audience.</p>
+                <h5>Our Panel includes:</h5>
+                <!-- List -->
+                <div class="cta-panel-feature-list">
+                    <div class="left-panel-list">
+                        <ul>
+                            <li>450k+ panel participants</li>
+                            <li>35+ demographic options</li>
+                            <li>Free demographic targeting</li>
+                        </ul>
+                    </div>
+                    <div class="right-panel-list">
+                        <ul>
+                            <li>Coverage in 100+ countries</li>
+                            <li>Average 5hr turn around time</li>
+                            <li>Response quality guarantee</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Button -->
+                <a href="#" class="primary-btn hover-link cta-btn">Learn More</a>
+            </div>
+
+            <div class="cta-image-container">
+                <img src="assets/asset 40.png" alt="call to action image" class="cta-image">
+                <img src="assets/asset 41.png" alt="white circle" class="cta-image-layover">
+                <div class="cta-image-layover-content">
+                    <h5>Starting from</h5>
+                    <p>USD $ <span id="special-price-number">1</span></p>
+                    <h5>per response</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-container page-container">
+            <div class="footer-logo-container">
+                <!--This contains the company logo on the left side of the nav bar-->
+                <a href="#" class="brand-logo">
+                    <img src="assets/asset 1.png" alt="Logo Name">
+                </a>
+            </div>
+
+
+            <div class="footer-product-container">
+                <h5>Products</h5>
+                <ul class="footer-list">
+                    <li>Overview</li>
+                    <li>Pricing</li>
+                    <li>UsabilityHub Panel</li>
+                    <li>Customers</li>
+                    <li>Status Page</li>
+                    <li>Sign Up</li>
+                    <li>Book a demo</li>
+                </ul>
+            </div>
+
+            <div class="footer-methodologies-container">
+                <h5>Methodologies</h5>
+                <ul class="footer-list">
+                    <li>Card Sorting</li>
+                    <li>Prototype Testing</li>
+                    <li>First Click tests</li>
+                    <li>Preference tests</li>
+                    <li>Five Second tests</li>
+                    <li>Design Surveys</li>
+                </ul>
+            </div>
+
+            <div class="footer-resources-container">
+                <h5>Resources</h5>
+                <ul class="footer-list">
+                    <li>Blog</li>
+                    <li>Examples</li>
+                    <li>Testing guides</li>
+                    <li>Help Center</li>
+                    <li>Contact</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="subfooter">
+            <div class="subfooter-container page-container">
+                <a href="#" class="hover-link">Privacy policy</a>
+                <a href="#" class="hover-link">Terms & conditions</a>
+                <a href="#" class="hover-link">Security Information</a>
+                <div class="subfooter-icons-container">
+                    <img class="subfooter-icons" src="assets/asset 28.png" alt="facebook logo">
+                    <img class="subfooter-icons" src="assets/asset 29.png" alt="twitter logo">
+                    <img class="subfooter-icons" src="assets/asset 30.png" alt="linkedin logo">
+                    <img class="subfooter-icons" src="assets/asset 31.png" alt="youtube logo">
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

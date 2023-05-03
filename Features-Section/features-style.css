@@ -1,0 +1,46 @@
+/*Main Features container */
+.features {
+  /* Set the background image*/
+  background-image: url(../assets/logo/asset\ 34.svg);
+  background-repeat: no-repeat;
+  /* Set the background image to the center*/
+  background-position: center;
+  /* Background image size is 55% of the page-container*/
+  background-size: 55%;
+}
+
+.features-btn {
+  margin-top: 1.5vh;
+}
+
+#features-btn-arrow {
+  margin-left: 3px;
+}
+
+/* When the mouse hovers over the feature-btn then this arrow moves to the right*/
+.features-btn:hover #features-btn-arrow {
+  transform: translateX(4px);
+}
+
+.all-features-container {
+  /* Use grid to display features*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5vh;
+  -moz-column-gap: 2vh;
+       column-gap: 2vh;
+  margin-top: 3vh;
+}
+
+/* Each feature container contains 4 elements that will showed using flexbox*/
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
+
+.feature-icon {
+  height: 40px;
+  width: 40px;
+}/*# sourceMappingURL=features-style.css.map */

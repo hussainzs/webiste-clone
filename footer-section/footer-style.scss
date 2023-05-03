@@ -1,0 +1,60 @@
+$accent-color-dark: #1d69a3;
+
+footer {
+    background-color: #ebf2fa;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.footer-product-container, 
+.footer-methodologies-container, 
+.footer-resources-container{
+    text-align: start;
+    margin-top: 2%;
+
+    h5 {
+        margin-bottom: 9%;
+    }
+}
+
+.footer-list {
+    cursor: pointer;
+    li{
+        font-size: 0.9rem;
+        color: #577592;
+        margin-bottom: 7%;
+    }
+}
+
+.footer-logo-container {
+    margin-top: 2%;
+}
+
+/************** Subfooter ********************/
+.subfooter {
+    background-color: #b9cde4;
+    color: #183b56;
+}
+
+.subfooter-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subfooter-icons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subfooter-icons {
+    width: 16px;
+    height: 16px;
+    margin-right: 17px;
+}

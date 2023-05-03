@@ -1,0 +1,67 @@
+/*Define some variables to be used later */
+$primary-text-color: #183b56;
+$secondary-text-color: #577592;
+$accent-color: #2294ed;
+$accent-color-dark: #1d69a3;
+$padding-inline-section: 15px;
+
+.header-section {
+    /* Use Flex to display the two elements of the header*/
+    display: flex;
+    justify-content: space-between;
+    /* Verticially aligns them in the center*/
+    align-items: center;
+    /* Add some space on top from navbar*/
+    margin-top: 20px;
+}
+
+/* header-left contains H1, p and a get started button*/
+.header-left {
+    display: flex;
+    flex-direction: column;
+    /* Aligns items to the left border of the header-left*/
+    text-align: start;
+    /* Add a small padding from the border*/
+    padding: 5px;
+    margin-left: 0;
+    /* max width of the header-section*/
+    max-width: 43%;
+
+    p {
+        margin-top: 5px;
+    }
+}
+
+/* Contains the picture*/
+.header-right {
+    /*defines the width of the picture */
+    img {
+        width: 600px;
+    }
+
+}
+
+.header-btn {
+    /* *Adds some distance between the p tag and get started button*/
+    margin-top: 20px;
+}
+
+/******************* COMPANIES SECTION **************************/
+.partner-companies {
+    margin-block: 30px;
+}
+
+#companies-heading {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.partners-logo-container {
+    margin-block: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners-logo {
+    height: 50px;
+}
